@@ -1,15 +1,24 @@
+/*Color pallete used for page*/
+:root {
+  --black: #000000;
+  --green: #5a9e3d;
+  --white: #ffffff;
+  --tan: #fdf3d8;
+  --pink: #ee927a;
+}
+
 * {
   font-size: 50px;
-  background-color: #bdff00;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #5a9e3d;
   text-align: center;
 }
 
 header {
+  color: #fdf3d8;
   display: flex;
   justify-content: center;
-  font: size 80px;
   padding: 5px 5px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
 }
 
@@ -19,7 +28,7 @@ nav {
 }
 
 button {
-  text-decoration-color: black;
+  color: #ee927a;
   padding: 14px 20px;
   font-size: 30px;
   font-weight: bold;
@@ -36,4 +45,18 @@ img {
   align-items: center;
   box-shadow: 30px 30px 30px;
   padding-top: 10px;
+}
+
+.profile {
+  margin-top: 50px;
+  line-height: 1.25;
+  font-size: 30px;
+  color: #fdf3d8;
+}
+
+.run {
+  font-size: 30px;
+  color: #ee927a;
+  font-weight: 300px;
+  text-decoration: underline;
 }
